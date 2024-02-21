@@ -1,6 +1,5 @@
 Steps to run this project in your computer
 -------------------------------------------
-
 1.>install all the dependencies of the node  package manager (npm) by running `npm install` command on terminal or cmd.
 2.>set up the postgreSQL database in your computer  by following these steps: 
     Setting up pgAdmin
@@ -10,7 +9,7 @@ Steps to run this project in your computer
     Set up a master password when prompted.
 3.> Make the Schemas
     i.countries table
-        "CREATE TABLE countries (id serial PRIMARY KEY, country_code  varchar(2) NOT NULL,country_name varchar(20));"
+        `CREATE TABLE countries (id serial PRIMARY KEY, country_code  varchar(2) NOT NULL,country_name varchar(20));`
         import the countries.csv file in the table
 
     ii. visited_countries table
